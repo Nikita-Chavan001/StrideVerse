@@ -1,0 +1,39 @@
+[
+    
+    {
+        "id": 1,
+        "title": "Nike",
+        "image": "logonike.png",
+        "description": " Innovative athletic footwear, apparel, and accessories; renowned for performance, comfort,& iconic swoosh logo , fabulous tagline; epitomizes athleticism & style."
+    },
+    {
+        "id": 2,
+        "title": "RedTape",
+        "image": "logoredtape.png",
+        "description": "Stylish and durable footwear brand; offers trendy and comfortable shoes with quality craftsmanship with attractive designs and affordable prices."
+    },
+    {
+        "id": 3,
+        "title": "Puma",
+        "image": "logopuma.png",
+        "description": "Dynamic sports shoes and apparel brand; merges performance with fashion; known for sleek designs and collaborations with athletes."
+    },
+    {
+        "id": 4,
+        "title": "Adidas",
+        "image": "logoadidas.png",
+        "description": " Innovative athletic footwear, apparel, and accessories; renowned for performance, comfort,& iconic swoosh logo , fabulous tagline; epitomizes athleticism & style."
+    },
+    {
+        "id": 2,
+        "title": "Reebok",
+        "image": "logoreebok.png",
+        "description": "Stylish and durable footwear brand; offers trendy and comfortable shoes with quality craftsmanship with attractive designs and affordable prices."
+    },
+    {
+        "id": 3,
+        "title": "Skechers",
+        "image": "logoskechers.png",
+        "description": "Dynamic sports shoes and apparel brand; merges performance with fashion; known for sleek designs and collaborations with athletes."
+    }
+]

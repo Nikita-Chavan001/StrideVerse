@@ -1,0 +1,46 @@
+[
+    
+    {
+        "id": 1,
+        "image": "nike.jpg",
+        "title": "Nike",
+        "description": "Innovative athletic footwear, apparel, and accessories; renowned for performance, comfort,& iconic swoosh logo , fabulous tagline; epitomizes athleticism & style.",
+        "content": "Nike, Inc.[note 1] (stylized as NIKE) is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon, United States.[4] It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, with revenue in excess of US$46 billion in its fiscal year 2022.[5][6]The company was founded on January 25, 1964, as Blue Ribbon Sports, by Bill Bowerman and Phil Knight, and officially became Nike, Inc. on May 30, 1971. The company takes its name from Nike, the Greek goddess of victory.[7] Nike markets its products under its own brand, as well as Nike Golf, Nike Pro, Nike+, Nike Blazers, Air Force 1, Nike Dunk, Air Max, Foamposite, Nike Skateboarding, Nike CR7,[8] and subsidiaries including Air Jordan and Converse (brand). Nike also owned Bauer Hockey from 1995 to 2008, and previously owned Cole Haan, Umbro, and Hurley International.[9] In addition to manufacturing sportswear and equipment, the company operates retail stores under the Niketown name. Nike sponsors many high-profile athletes and sports teams around the world, with the highly recognized trademarks of Just Do It and the Swoosh logo.As of 2020, it employed 76,700 people worldwide.[10] In 2020, the brand alone was valued in excess of $32 billion, making it the most valuable brand among sports businesses.[11] Previously, in 2017, the Nike brand was valued at $29.6 billion.[12] Nike ranked 89th in the 2018 Fortune 500 list of the largest United States corporations by total revenue.[13]"
+    },
+    {
+        "id": 2,
+        "image": "redtape1.png",
+        "title": "RedTape",
+        "description": "Stylish and durable footwear brand; offers trendy and comfortable shoes with quality craftsmanship with attractive designs and affordable prices.",
+        "content": "Red tape is an idiom referring to regulations or conformity to formal rules or standards which are claimed to be excessive, rigid or redundant, or to bureaucracy claimed to hinder or prevent action or decision-making. It is usually applied to governments, corporations, and other large organizations. Things often described as red tape include filling out paperwork, obtaining licenses, having multiple people or committees approve a decision and various low-level rules that make conducting one's affairs slower, more difficult, or both.[1][2][3] Red tape has been found to hamper organizational performance and employee wellbeing across countries and contexts by a meta-analysis and meta-regression in 2021, and especially internal red tape imposed by the organization itself on its employees was identified as particularly harmful.[4] A related concept, administrative burden, refers to the costs citizens may experience in their interaction with government even if bureaucratic regulations or procedures serve legitimate purposes."
+    },    
+    {
+        "id": 3,
+        "image": "puma1.jpg",
+        "title": "Puma",
+        "description": "Dynamic sports shoes and apparel brand; merges performance with fashion; known for sleek designs and collaborations with athletes.",
+        "content": "Puma SE is a German multinational corporation that designs and manufactures athletic and casual footwear, apparel, and accessories, headquartered in Herzogenaurach, Bavaria, Germany. Puma is the third largest sportswear manufacturer in the world.[6] The company was founded in 1948 by Rudolf Dassler (1898–1974). In 1924, Rudolf and his brother Adolf Adi Dassler had jointly formed the company Gebrüder Dassler Schuhfabrik ('Dassler Brothers Shoe Factory'). The relationship between the two brothers deteriorated until they agreed to split in 1948, forming two separate entities, Adidas and Puma. Following the split, Rudolf originally registered the newly established company as Ruda (derived from Rudolf Dassler, as Adidas was based on Adi Dassler), but later changed the name to Puma. Puma's earliest logo consisted of a square and beast jumping through a D, which was registered, along with the company's name, in 1948. Puma's shoe and clothing designs feature the Puma logo and the distinctive Formstrip which was introduced in 1958"
+    },
+    {
+        "id": 4,
+        "image": "adidasfinal 1.png",
+        "title": "Adidas",
+        "description": "Leading global sports brand; offers high-performance footwear and apparel; famous for iconic three-stripe design and athlete endorsements.",
+        "content": "Adidas AG (German pronunciation: [ˈʔadiˌdas] ⓘ; stylized in all lowercase since 1949)[4] is a German athletic apparel and footwear corporation headquartered in Herzogenaurach, Bavaria, Germany. It is the largest sportswear manufacturer in Europe, and the second largest in the world, after Nike.[5][6] It is the holding company for the Adidas Group, which also owns an 8.33% stake of the football club Bayern München,[7] and Runtastic, an Austrian fitness technology company. Adidas's revenue for 2018 was listed at €21.915 billion.[3] The company was started by Adolf Dassler in his mother's house. He was joined by his elder brother Rudolf in 1924 under the name Gebrüder Dassler Schuhfabrik Dassler Brothers Shoe Factory. Dassler assisted in the development of spiked running shoes (spikes) for multiple athletic events. To enhance the quality of spiked athletic footwear, he transitioned from a previous model of heavy metal spikes to utilising canvas and rubber. Dassler persuaded U.S. sprinter Jesse Owens to use his handmade spikes at the 1936 Summer Olympics. In 1949, following a breakdown in the relationship between the brothers, Adolf created Adidas and Rudolf established Puma, which became Adidas's business rival.[1]The three stripes are Adidas's identity mark having been used on the company's clothing and shoe designs as a marketing aid. The branding which Adidas bought in 1952 from Finnish sports company Karhu Sports for the equivalent of €1600 and two bottles of whiskey[8][9] became so successful that Dassler described Adidas as The three stripes company.[8][9]"
+    },
+    {
+        "id": 5,
+        "image": "reebok 1.png",
+        "title": "Reebok",
+        "description": " Iconic sportswear brand; provides cutting-edge footwear and apparel for fitness enthusiasts; known for innovation and style.",
+        "content": "Reebok International Limited (/ˈriːbɒk/) is an American fitness footwear and clothing brand that is a part of Authentic Brands Group. It was established in England in 1958 as a companion company to J.W. Foster and Sons, a sporting goods company which had been founded in 1895 in Bolton, Lancashire. From 1958 until 1986, the brand featured the flag of the United Kingdom in its logo to signify the origins of the company. It was bought by German sporting goods company Adidas in 2005, then sold to the United States-based Authentic Brands Group in 2021. The company's global headquarters are located in Boston, Massachusetts, in the Seaport District."
+     },    
+    {
+        "id": 6,
+        "image": "scketcher 1.png",
+        "title": "Sckecher",
+        "description": " Casual and athletic footwear brand; delivers comfort and style with memory foam technology; popular for lifestyle and performance shoes.",
+        "content": "Skechers was founded in 1992 by Robert Greenberg, who had previously founded LA Gear in 1983 (he stepped down as CEO of that company the same year he founded Skechers). Greenberg sought to focus on men's street shoes; Skechers' early products were utility-style boots popular in grunge fashion.[3] The company quickly expanded to include women and children, with casual and athletic styles, and went public in 1999.[4][5] In 2011, Skechers launched its performance sportswear line for athletes and signed Meb Keflezighi as a spokesman.[6] Skechers is the third largest footwear brand in the United States by revenue.[7][8] In January 2019 the company started an expansion of its corporate headquarters to double its office design and showroom space in the South Bay.[9] In 2023 Skechers had its debut on the Fortune 500"
+    }
+    
+]

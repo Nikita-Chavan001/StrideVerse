@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BloggerSite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+ 
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="navbar-logo">
+            <img src="v-removebg-preview.png" alt="logo">
+          </div>
+          <a class="navbar-brand" href="javascript:void(0)">StrideVerse</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="Home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="logo-container">
+        <img class="logo" src="v__2_-removebg-preview.png" alt="logo">
+      </div>
+       <h1 class="title">StrideVerse</h1>
+       <p class="subtitle">Let's Dive Deep Into Brand Shoe World With StrideVerse!</p>
+       <video class="vdo" width=2000px height="500px"  autoplay >
+        <source src="shoevideo.mp4" type="video/mp4">
+      </video>
+      </div>
+
+      <div class="container mt-4" id="blogPostsContainer">
+       
+        <!-- Row to display blog posts -->
+        <div class="row" id="blogPostsRow">
+            <!-- Blog posts will be dynamically inserted here -->
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="icon" id="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="icon" id="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icon" id="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon" id="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        
+      
+    </footer>
+    <script>
+      // Fetch blog data from JSON file
+      fetch('home.json')
+          .then(response => response.json())
+          .then(data => {
+              const blogPostsRow = document.getElementById('blogPostsRow');
+              // Iterate over each blog post and create HTML elements dynamically
+              data.forEach(post => {
+                  // Create blog post element and append it to the blog post row
+                  const postElement = document.createElement('div');
+                  postElement.classList.add('col-md-4');
+                  postElement.innerHTML = `
+                      <div class="card mb-4">
+                          <img src="${post.image}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title">${post.title}</h5>
+                              <p class="card-text">${post.description}</p>
+                              <a href="blog.html?id=${post.id}" class="btn btn-outline-info">Explore More</a>
+                          </div>
+                      </div>
+                  `;
+                  blogPostsRow.appendChild(postElement);
+              });
+          })
+          .catch(error => console.error('Error fetching blog data:', error));
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-v7hwh6VicCJlA0t5tzmtCg//yIw5zHHtq/xKmvU2HJa6QAVIR7YMP0MBaazjGuf1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-gaFgjAB7mvnJH7BEnD3FxCsIXCQ3piZcuKtfp/Zfzf8YXAVL/g8Jwiw75Mi9KFiF" crossorigin="anonymous"></script>
+  
+    </body>
+</html>
